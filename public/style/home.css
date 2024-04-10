@@ -1,0 +1,23 @@
+.contact a{
+    text-decoration: none;
+    color: black;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: 40% auto;
+    gap: 5px;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    padding: 10px;
+    height: 80vh;
+}
+.left{
+    background-color: aliceblue;
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    border-radius: 10px;
+  }
+  .right{
+    border-radius: 10px;
+    background-color: aliceblue;
+    border: 1px solid rgba(0, 0, 0, 0.8);
+  }
